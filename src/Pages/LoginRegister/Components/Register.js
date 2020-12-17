@@ -1,6 +1,6 @@
 import React from "react";
 import "./Register.scss";
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 
 const API = "http://10.58.7.186:8000/account/register";

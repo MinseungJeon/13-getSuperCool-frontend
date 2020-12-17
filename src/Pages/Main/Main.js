@@ -109,7 +109,7 @@ class Main extends Component {
               />
             </div>
           </div>
-          <div className="shopNow"><Link className="link" to={"/ProductList"}>shop now</Link></div>
+          <div className="shopNow"><Link className="link" to={"/shop"}>shop now</Link></div>
         </div>
         <div className="NewsletterSection">
           <img src="https://i.ibb.co/myqMxG7/annie-spratt-j-Crft-LHe3ec-unsplash.jpg" alt="콜라주 사진" />
