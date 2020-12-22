@@ -1,5 +1,5 @@
 @import "../../../Styles/common.scss";
-@import "./Logo.scss";
+@import "../Nav/components/Logo.scss";
 
 .Nav {
   @include flex-spaceBetween-center;
