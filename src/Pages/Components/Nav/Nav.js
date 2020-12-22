@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Logo from "./Logo";
-import Cart from "../Cart";
 import "./Nav.scss";
 import { Link } from "react-router-dom";
 
@@ -65,7 +64,7 @@ class Nav extends Component {
             </svg></Link>
           </div>
         </div>
-        {visible && <Cart handleCart={this.handleCart} />}
+        {/* {visible && <Cart handleCart={this.handleCart} />} */}
       </div>
     );
   }

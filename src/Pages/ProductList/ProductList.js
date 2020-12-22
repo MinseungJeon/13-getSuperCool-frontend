@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../Components/Nav/Nav";
 import Menubar from "./Components/Menubar/Menubar";
 import Product from "./Components/Product/Product";
-import Cart from "../Components/Cart";
+//import Cart from "../Components/Cart";
 import Footer from "../Components/Footer/Footer"
 import "./ProductList.scss";
 
@@ -128,7 +128,7 @@ class ProductList extends React.Component {
   };
 
   componentDidMount() {
-    fetch("http://10.58.7.186:8000/shop", {
+    fetch("./data/data.json", {
       method: "GET"
     })
       .then(res => res.json())
@@ -193,7 +193,7 @@ class ProductList extends React.Component {
             )}
           </div>
         </main>
-        {visible && (
+        {/* {visible && (
           <Cart
             product={this.state.product}
             showCart={this.showCart}
@@ -201,9 +201,9 @@ class ProductList extends React.Component {
             addCartProduct={this.addCartProduct}
             cartItems={cartItems}
           />
-        )}
+        )} */}
         <div className="photoBox">
-          <img src="https://i.ibb.co/MPpGLC0/slick-1.jpg"/>
+          <img src="https://i.ibb.co/MPpGLC0/slick-1.jpg" alt="image1"/>
         </div>
         <Footer />
       </div>
